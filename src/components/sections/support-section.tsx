@@ -1,6 +1,6 @@
 import { Check } from "lucide-react";
 
-import { PhotoPlaceholder } from "@/components/photo-placeholder";
+import { ConversationIllustration } from "@/components/illustrations/conversation-illustration";
 
 const SUPPORTS = [
   {
@@ -40,11 +40,7 @@ export function SupportSection() {
               入社後も、そばにいます。
             </h2>
             <div className="mt-8 hidden lg:block">
-              <PhotoPlaceholder
-                id="P-06"
-                brief="担当者と相談者がテーブルを挟んで穏やかに話している面談シーン。オンライン面談画面でも可。"
-                className="aspect-[4/5] w-full"
-              />
+              <ConversationIllustration className="w-full max-w-sm" />
             </div>
           </div>
 

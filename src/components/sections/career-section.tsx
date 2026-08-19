@@ -1,4 +1,4 @@
-import { PhotoPlaceholder } from "@/components/photo-placeholder";
+import { StepsIllustration } from "@/components/illustrations/steps-illustration";
 
 const STAGES = [
   {
@@ -38,11 +38,7 @@ export function CareerSection() {
               こんな流れで成長します。
             </h2>
             <div className="mt-8 hidden lg:block">
-              <PhotoPlaceholder
-                id="P-02"
-                brief="20代男性がオフィスでノートPCを見ながら先輩と話している自然なワンシーン。過度な笑顔は避ける。"
-                className="aspect-[4/5] w-full"
-              />
+              <StepsIllustration className="w-full max-w-sm" />
             </div>
           </div>
 

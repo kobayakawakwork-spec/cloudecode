@@ -34,11 +34,13 @@ export function FeaturesSection() {
         <div className="mt-10 grid gap-8 border-t border-brand-line-on-navy pt-10 sm:mt-14 sm:grid-cols-3 sm:gap-10 sm:pt-14">
           {FEATURES.map(({ icon: Icon, title, body }) => (
             <div key={title}>
-              <Icon
-                aria-hidden="true"
-                className="size-6 text-brand-blue-soft"
-                strokeWidth={1.75}
-              />
+              <span className="inline-flex size-12 items-center justify-center rounded-2xl bg-white/10">
+                <Icon
+                  aria-hidden="true"
+                  className="size-6 text-brand-amber"
+                  strokeWidth={1.75}
+                />
+              </span>
               <h3 className="mt-4 text-base leading-snug font-bold sm:text-lg">
                 {title}
               </h3>

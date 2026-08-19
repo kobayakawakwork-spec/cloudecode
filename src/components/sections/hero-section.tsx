@@ -1,5 +1,5 @@
 import { ConsultationDialog } from "@/components/consultation-dialog";
-import { PhotoPlaceholder } from "@/components/photo-placeholder";
+import { HeroIllustration } from "@/components/illustrations/hero-illustration";
 
 const TRUST_MARKERS = ["営業未経験OK", "20代限定", "完全無料相談"];
 
@@ -62,12 +62,7 @@ export function HeroSection() {
         </div>
 
         <div className="lg:pl-4">
-          <PhotoPlaceholder
-            id="P-01"
-            brief="20代男性が街中を自然な表情で歩いている縦位置スナップ。スーツではなくオフィスカジュアル。逆光気味の自然光。"
-            tone="navy"
-            className="aspect-[4/5] w-full sm:aspect-[16/10] lg:aspect-[4/5]"
-          />
+          <HeroIllustration className="mx-auto w-full max-w-sm lg:max-w-none" />
         </div>
       </div>
     </section>

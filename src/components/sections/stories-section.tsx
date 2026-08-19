@@ -1,8 +1,9 @@
-import { PhotoPlaceholder } from "@/components/photo-placeholder";
+import { AvatarIllustration } from "@/components/illustrations/avatar-illustration";
 
 const STORIES = [
   {
     id: "P-03",
+    variant: 0,
     quote:
       "未経験でも、人と話すのが好きなだけで武器になると気づけました。",
     profile: "24歳・元アパレル販売",
@@ -10,6 +11,7 @@ const STORIES = [
   },
   {
     id: "P-04",
+    variant: 1,
     quote:
       "収入よりも先に、“選べる自分”になれたことが大きかったです。",
     profile: "27歳・元工場勤務",
@@ -17,11 +19,12 @@ const STORIES = [
   },
   {
     id: "P-05",
+    variant: 2,
     quote: "学歴に自信がなかったけど、面接対策で不安がなくなりました。",
     profile: "23歳・既卒",
     path: "インサイドセールスへ",
   },
-];
+] as const;
 
 export function StoriesSection() {
   return (
@@ -40,12 +43,7 @@ export function StoriesSection() {
         <div className="mt-10 grid gap-8 border-t border-brand-line pt-10 sm:mt-12 sm:grid-cols-3 sm:gap-6 sm:pt-12">
           {STORIES.map((story) => (
             <div key={story.id}>
-              <PhotoPlaceholder
-                id={story.id}
-                showLabel={false}
-                brief="20代男性のポートレート。自然光、正面〜やや斜め、柔らかい表情。ビジネスカジュアル。"
-                className="aspect-square w-16 rounded-full"
-              />
+              <AvatarIllustration variant={story.variant} className="w-16" />
               <p className="mt-4 text-[15px] leading-relaxed font-medium text-brand-navy">
                 &ldquo;{story.quote}&rdquo;
               </p>

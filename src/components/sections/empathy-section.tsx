@@ -1,3 +1,5 @@
+import { ThinkingIllustration } from "@/components/illustrations/thinking-illustration";
+
 const WORRIES = [
   "今の給料のまま、この先も働き続けるのは不安",
   "将来につながるスキルが身についている実感がない",
@@ -11,14 +13,19 @@ export function EmpathySection() {
   return (
     <section className="bg-brand-paper">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
-        <p className="font-mono text-xs tracking-wide text-brand-blue">
-          WORRY
-        </p>
-        <h2 className="mt-3 max-w-lg text-2xl leading-snug font-bold tracking-tight text-brand-navy text-balance sm:text-3xl">
-          今のままでいいのか、
-          <br className="sm:hidden" />
-          迷っていませんか。
-        </h2>
+        <div className="flex items-start justify-between gap-6">
+          <div>
+            <p className="font-mono text-xs tracking-wide text-brand-blue">
+              WORRY
+            </p>
+            <h2 className="mt-3 max-w-lg text-2xl leading-snug font-bold tracking-tight text-brand-navy text-balance sm:text-3xl">
+              今のままでいいのか、
+              <br className="sm:hidden" />
+              迷っていませんか。
+            </h2>
+          </div>
+          <ThinkingIllustration className="hidden w-40 shrink-0 sm:block" />
+        </div>
 
         <div className="mt-10 grid gap-0 border-t border-brand-line sm:mt-14 lg:grid-cols-2 lg:gap-x-12">
           {WORRIES.map((worry) => (

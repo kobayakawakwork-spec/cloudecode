@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --radius: 0.5rem;
+  --radius: 1rem;
 
   --background: #ffffff;
   --foreground: #0b1220;
@@ -42,7 +42,7 @@
   --sidebar-border: #e4e7ec;
   --sidebar-ring: #2451e5;
 
-  /* Ark brand tokens — editorial navy / corporate blue / paper white */
+  /* Ark brand tokens — friendly illustrated LP: navy / corporate blue / warm accent */
   --brand-navy: #0b1220;
   --brand-navy-2: #101a30;
   --brand-blue: #2451e5;
@@ -51,6 +51,12 @@
   --brand-line: #e4e7ec;
   --brand-line-on-navy: rgba(255, 255, 255, 0.14);
   --brand-ink-muted: #5b6472;
+  --brand-amber: #f5a524;
+  --brand-amber-soft: #fef2e0;
+  --brand-coral: #ff7a59;
+  --brand-mint: #eafaf3;
+  --brand-skin: #f2c39c;
+  --brand-skin-2: #e5a76f;
 }
 
 .dark {
@@ -134,6 +140,12 @@
   --color-brand-line: var(--brand-line);
   --color-brand-line-on-navy: var(--brand-line-on-navy);
   --color-brand-ink-muted: var(--brand-ink-muted);
+  --color-brand-amber: var(--brand-amber);
+  --color-brand-amber-soft: var(--brand-amber-soft);
+  --color-brand-coral: var(--brand-coral);
+  --color-brand-mint: var(--brand-mint);
+  --color-brand-skin: var(--brand-skin);
+  --color-brand-skin-2: var(--brand-skin-2);
 
   --breakpoint-xs: 375px;
 }

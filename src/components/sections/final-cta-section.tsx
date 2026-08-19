@@ -1,10 +1,12 @@
 import { ConsultationDialog } from "@/components/consultation-dialog";
+import { SuccessIllustration } from "@/components/illustrations/success-illustration";
 
 export function FinalCtaSection() {
   return (
     <section className="bg-brand-navy text-white">
       <div className="mx-auto max-w-3xl px-4 py-20 text-center sm:px-6 sm:py-28">
-        <h2 className="text-2xl leading-snug font-bold tracking-tight text-balance sm:text-4xl sm:leading-tight">
+        <SuccessIllustration className="mx-auto w-40 sm:w-48" />
+        <h2 className="mt-6 text-2xl leading-snug font-bold tracking-tight text-balance sm:text-4xl sm:leading-tight">
           その転職、
           <br className="sm:hidden" />
           話すところから始めよう。
