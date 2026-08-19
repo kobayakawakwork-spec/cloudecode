@@ -37,6 +37,8 @@ export function StepsIllustration({ className }: { className?: string }) {
         <path
           d="M2 46 Q2 26 30 26 Q58 26 58 46 L54 82 Q30 92 6 82 Z"
           fill="#2451e5"
+          stroke="#0b1220"
+          strokeWidth="4"
         />
         <path
           d="M4 50 Q-14 40 -10 20"
@@ -45,7 +47,7 @@ export function StepsIllustration({ className }: { className?: string }) {
           strokeLinecap="round"
           fill="none"
         />
-        <circle cx="30" cy="8" r="22" fill="#f2c39c" />
+        <circle cx="30" cy="8" r="22" fill="#f2c39c" stroke="#0b1220" strokeWidth="4" />
         <path
           d="M8 6 Q8 -16 30 -16 Q52 -16 52 6 Q52 -6 30 -6 Q8 -6 8 6Z"
           fill="#0b1220"

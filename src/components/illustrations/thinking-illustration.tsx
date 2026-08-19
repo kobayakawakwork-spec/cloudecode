@@ -54,6 +54,8 @@ export function ThinkingIllustration({ className }: { className?: string }) {
         <path
           d="M24 60 Q24 36 60 36 Q96 36 96 60 L92 104 Q60 116 28 104 Z"
           fill="#2451e5"
+          stroke="#0b1220"
+          strokeWidth="4"
         />
         {/* arm to chin */}
         <path
@@ -64,7 +66,7 @@ export function ThinkingIllustration({ className }: { className?: string }) {
           fill="none"
         />
         {/* head */}
-        <circle cx="60" cy="18" r="26" fill="#f2c39c" />
+        <circle cx="60" cy="18" r="26" fill="#f2c39c" stroke="#0b1220" strokeWidth="4" />
         <path
           d="M34 16 Q34 -10 60 -10 Q86 -10 86 16 Q86 0 60 0 Q34 0 34 16Z"
           fill="#0b1220"

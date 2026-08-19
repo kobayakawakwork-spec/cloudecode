@@ -31,9 +31,9 @@ export function RegisterIcon({ className }: { className?: string }) {
       className={className}
       label="ノートPCの前でエントリーシートに入力している人のイラスト"
     >
-      <rect x="30" y="52" width="60" height="40" rx="6" fill="#2451e5" />
+      <rect x="30" y="52" width="60" height="40" rx="6" fill="#2451e5" stroke="#0b1220" strokeWidth="3" />
       <rect x="38" y="60" width="44" height="24" rx="3" fill="#eaf0ff" />
-      <circle cx="60" cy="34" r="16" fill="#f2c39c" />
+      <circle cx="60" cy="34" r="16" fill="#f2c39c" stroke="#0b1220" strokeWidth="3" />
       <path
         d="M44 32 Q44 18 60 18 Q76 18 76 32 Q76 24 60 24 Q44 24 44 32Z"
         fill="#0b1220"

@@ -40,6 +40,8 @@ export function SuccessIllustration({ className }: { className?: string }) {
         <path
           d="M4 40 Q4 20 30 20 Q56 20 56 40 L52 72 Q30 82 8 72 Z"
           fill="#2451e5"
+          stroke="#060a14"
+          strokeWidth="3"
         />
         <path
           d="M50 40 Q66 30 68 12"
@@ -48,7 +50,7 @@ export function SuccessIllustration({ className }: { className?: string }) {
           strokeLinecap="round"
           fill="none"
         />
-        <circle cx="30" cy="4" r="20" fill="#f2c39c" />
+        <circle cx="30" cy="4" r="20" fill="#f2c39c" stroke="#060a14" strokeWidth="3" />
         <path
           d="M10 2 Q10 -18 30 -18 Q50 -18 50 2 Q50 -10 30 -10 Q10 -10 10 2Z"
           fill="#0b1220"

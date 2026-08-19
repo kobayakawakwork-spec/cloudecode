@@ -23,8 +23,10 @@ export function AvatarIllustration({
       <path
         d="M14 90 Q14 62 48 62 Q82 62 82 90"
         fill={c.shirt}
+        stroke="#0b1220"
+        strokeWidth="3"
       />
-      <circle cx="48" cy="42" r="22" fill={c.skin} />
+      <circle cx="48" cy="42" r="22" fill={c.skin} stroke="#0b1220" strokeWidth="3" />
       <path
         d="M26 40 Q26 18 48 18 Q70 18 70 40 Q70 26 48 26 Q26 26 26 40Z"
         fill={c.hair}

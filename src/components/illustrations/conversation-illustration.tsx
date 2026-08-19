@@ -27,9 +27,11 @@ export function ConversationIllustration({
       <g transform="translate(56 90)">
         <path
           d="M0 76 Q0 48 34 48 Q68 48 68 76 L64 108 Q34 118 4 108 Z"
-          fill="#0b1220"
+          fill="#9aa4b2"
+          stroke="#0b1220"
+          strokeWidth="4"
         />
-        <circle cx="34" cy="20" r="24" fill="#e5a76f" />
+        <circle cx="34" cy="20" r="24" fill="#e5a76f" stroke="#0b1220" strokeWidth="4" />
         <path
           d="M10 18 Q10 -6 34 -6 Q58 -6 58 18 Q58 4 34 4 Q10 4 10 18Z"
           fill="#2c3650"
@@ -43,8 +45,10 @@ export function ConversationIllustration({
         <path
           d="M0 76 Q0 48 34 48 Q68 48 68 76 L64 108 Q34 118 4 108 Z"
           fill="#2451e5"
+          stroke="#0b1220"
+          strokeWidth="4"
         />
-        <circle cx="34" cy="20" r="24" fill="#f2c39c" />
+        <circle cx="34" cy="20" r="24" fill="#f2c39c" stroke="#0b1220" strokeWidth="4" />
         <path
           d="M10 18 Q10 -6 34 -6 Q58 -6 58 18 Q58 2 34 2 Q10 2 10 18Z"
           fill="#0b1220"
