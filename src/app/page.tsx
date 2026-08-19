@@ -2,6 +2,8 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { StickyMobileCta } from "@/components/sticky-mobile-cta";
 import { HeroSection } from "@/components/sections/hero-section";
+import { StrengthsSection } from "@/components/sections/strengths-section";
+import { ComparisonSection } from "@/components/sections/comparison-section";
 import { EmpathySection } from "@/components/sections/empathy-section";
 import { BenefitsSection } from "@/components/sections/benefits-section";
 import { FeaturesSection } from "@/components/sections/features-section";
@@ -19,6 +21,8 @@ export default function Home() {
       <SiteHeader />
       <main id="main-content" className="flex-1">
         <HeroSection />
+        <StrengthsSection />
+        <ComparisonSection />
         <EmpathySection />
         <BenefitsSection />
         <FeaturesSection />

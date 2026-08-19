@@ -1,4 +1,4 @@
-import { ConsultationDialog } from "@/components/consultation-dialog";
+import { HeroChoiceCard } from "@/components/hero-choice-card";
 import { HeroIllustration } from "@/components/illustrations/hero-illustration";
 
 const TRUST_MARKERS = ["営業未経験OK", "20代限定", "完全無料相談"];
@@ -45,12 +45,8 @@ export function HeroSection() {
             あなたに合う会社だけを紹介する、Arkの無料転職相談です。
           </p>
 
-          <div className="mt-8 max-w-xs sm:max-w-[280px]">
-            <ConsultationDialog
-              triggerLabel="無料で転職相談する"
-              triggerSize="lg"
-              triggerClassName="w-full"
-            />
+          <div className="mt-8">
+            <HeroChoiceCard />
           </div>
 
           <div className="mt-8 border-t border-brand-line-on-navy pt-4">
@@ -61,8 +57,8 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div className="lg:pl-4">
-          <HeroIllustration className="mx-auto w-full max-w-sm lg:max-w-none" />
+        <div className="hidden lg:block lg:pl-4">
+          <HeroIllustration className="mx-auto w-full max-w-sm opacity-90" />
         </div>
       </div>
     </section>
